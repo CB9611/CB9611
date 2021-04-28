@@ -1,0 +1,32 @@
+.content {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.navbarBrand {
+    text-decoration: none;
+    Color: white;
+    font-size: 35pt;
+}
+
+.links {
+    text-align: none;
+}
+
+.buttons {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    border: transparent;
+}
+
+.pages {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}

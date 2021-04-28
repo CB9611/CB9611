@@ -1,0 +1,9 @@
+.App {
+  text-align: none;
+}
+
+.container {
+  background-image: url(./images/background1.jpg);
+  min-height: 1200px;
+  width: 100%;
+}
