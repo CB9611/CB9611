@@ -3,12 +3,10 @@ import '../styles/errorPage.css';
 
 const errorPage = () => {
     return (
-        <div className="errorPage">
-            <div className="content">
-                <body className="bodyContent">
-                    404 Page Not Found
-                </body>
-            </div>
+        <div>
+            <body className="errorContent">
+                404 Page Not Found
+            </body>
         </div>
     );
 }

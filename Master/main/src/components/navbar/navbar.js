@@ -1,54 +1,42 @@
-
 /* Function imports */
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 /* Navbar imports */
 import { Link } from 'react-router-dom';
 import {
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
     Nav,
-    NavItem,
-    NavbarText
+    Navbar,
+    NavbarBrand,
+    NavItem
 } from 'reactstrap';
 
 /* Style imports */
 import '../../styles/navbar.css';
 
-const navbar = () => {
+const NavBar = (props) => {
     return (
-        <div className="navbar">
-            <div className="content">
-                <Navbar className="links">
-                    
-                    <NavbarBrand
-                        className="navbarBrand"
-                        href="/home"
-                    >CB9611</NavbarBrand>
+        <div>
+            <Navbar className="navObject">
 
-                    <NavItem className="buttons">
-                        <Link className="pages"
-                            to="/home"
-                        >Home</Link>
+                <NavbarBrand>
+                    <Link to="/" className="navBrand">CB9611</Link>
+                </NavbarBrand>
+
+                <Nav className="navObjects">
+
+                    <NavItem>
+                        <Link to="/" className="navItems">Home</Link>
                     </NavItem>
 
-                    <NavItem className="buttons">
-                        <Link className="pages"
-                            to="/about"
-                        >About</Link>
+                    <NavItem>
+                        <Link to="/about" className="navItems">About</Link>
                     </NavItem>
 
-                    <NavItem className="buttons">
-                        <Link className="pages"
-                            to="/CB9611"
-                        >CB9611</Link>
-                    </NavItem>
+                </Nav>
 
-                </Navbar>
-            </div>
+            </Navbar>
         </div>
     );
 }
 
-export default navbar;
+export default NavBar;

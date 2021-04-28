@@ -3,8 +3,10 @@ import '../styles/about.css';
 
 const about = () => {
     return (
-        <div className="about">
-            Hey from about
+        <div>
+            <body className="aboutContent">
+                Hey from about
+            </body>
         </div>
     );
 }

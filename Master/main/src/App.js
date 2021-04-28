@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 
 /* Component imports */
-import Navbar from './components/navbar/navbar.js';
+import NavBar from './components/navbar/navbar.js';
 import home from './components/home.js';
 import about from './components/about.js';
 import errorPage from './components/errorPage.js';
@@ -23,13 +23,15 @@ const App = (props) => {
     <div className="App">
       <div className="container">
         <Router>
-          <Navbar />
-          <Switch>
-            <Route to="/home" exact component={ home } />
-            <Route to="/about" exact component={ about } />
-            <Route to="/404" exact component={ errorPage } />
-            <Redirect to="/404" exact component={ errorPage } />
-          </Switch>
+          <NavBar />
+            <div className="wrapper">
+              <Switch>
+                <Route exact path="/" exact component={ home } />
+                <Route path="/about" exact component={ about } />
+                <Route to="/404" exact component={ errorPage } />
+                <Redirect path="/404" exact component={ errorPage } />
+              </Switch>
+            </div>
         </Router>
       </div>
     </div>
