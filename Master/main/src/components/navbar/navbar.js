@@ -19,17 +19,29 @@ const NavBar = (props) => {
             <Navbar className="navObject">
 
                 <NavbarBrand>
-                    <Link to="/" className="navBrand">CB9611</Link>
+                    <Link
+                        to="/"
+                        title="CB9611 - Go to home"
+                        className="navBrand"
+                    >CB9611</Link>
                 </NavbarBrand>
 
                 <Nav className="navObjects">
 
                     <NavItem>
-                        <Link to="/" className="navItems">Home</Link>
+                        <Link
+                            to="/"
+                            title="Go to home"
+                            className="navItems"
+                        >Home</Link>
                     </NavItem>
 
                     <NavItem>
-                        <Link to="/about" className="navItems">About</Link>
+                        <Link
+                            to="/about"
+                            title="Go to about"
+                            className="navItems"
+                        >About</Link>
                     </NavItem>
 
                 </Nav>
