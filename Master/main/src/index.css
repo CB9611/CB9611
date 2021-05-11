@@ -5,9 +5,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(100, 100, 100);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'MinecraftFifty-Solid';
+  src: local('MinecraftFifty-Solid'), url('./fonts/MinecraftFifty-Solid.otf');
+}
+
+@font-face {
+  font-family: 'LEMONMILK-Bold';
+  src: local('LEMONMILK-Bold'), url('./fonts/LemonMilk/LEMONMILK-Bold.otf');
+}
+
+@font-face {
+  font-family: 'LEMONMILK-BoldItalic';
+  src: local('LEMONMILK-BoldItalic'), url('./fonts/LemonMilk/LEMONMILK-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: 'LEMONMILK-Light';
+  src: local('LEMONMILK-Light'), url('./fonts/LemonMilk/LEMONMILK-Light.otf');
+}
+
+@font-face {
+  font-family: 'LEMONMILK-LightItalic';
+  src: local('LEMONMILK-LightItalic'), url('./fonts/LemonMilk/LEMONMILK-LightItalic.otf');
+}
+
+@font-face {
+  font-family: 'LEMONMILK-Medium';
+  src: local('LEMONMILK-Medium'), url('./fonts/LemonMilk/LEMONMILK-Medium.otf');
+}
+
+@font-face {
+  font-family: 'LEMONMILK-MediumItalic';
+  src: local('LEMONMILK-MediumItalic'), url('./fonts/LemonMilk/LEMONMILK-MediumItalic.otf');
+}
+
+@font-face {
+  font-family: 'LEMONMILK-Regular';
+  src: local('LEMONMILK-Regular'), url('./fonts/LemonMilk/LEMONMILK-Regular.otf');
+}
+
+@font-face {
+  font-family: 'LEMONMILK-RegularItalic';
+  src: local('LEMONMILK-RegularItalic'), url('./fonts/LemonMilk/LEMONMILK-RegularItalic.otf');
 }
