@@ -44,6 +44,14 @@ const NavBar = (props) => {
                         >About</Link>
                     </NavItem>
 
+                    <NavItem>
+                        <Link
+                            to="youtube"
+                            title="Go to YouTube channel"
+                            className="navItems"
+                        >YouTube</Link>
+                    </NavItem>
+
                 </Nav>
 
             </Navbar>

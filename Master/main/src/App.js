@@ -28,6 +28,7 @@ const App = (props) => {
               <Switch>
                 <Route exact path="/" exact component={ home } />
                 <Route path="/about" exact component={ about } />
+                <Route path="/youtube" />
                 <Route to="/404" exact component={ errorPage } />
                 <Redirect path="/404" exact component={ errorPage } />
               </Switch>
