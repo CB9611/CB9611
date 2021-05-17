@@ -38,6 +38,14 @@ const NavBar = (props) => {
 
                     <NavItem>
                         <Link
+                            to="myLife"
+                            title="View some pictures of things I like"
+                            className="navItems"
+                        >temp</Link>
+                    </NavItem>
+
+                    <NavItem>
+                        <Link
                             to="/about"
                             title="Go to about"
                             className="navItems"
@@ -45,11 +53,13 @@ const NavBar = (props) => {
                     </NavItem>
 
                     <NavItem>
-                        <Link
-                            to="youtube"
+                        <a
+                            href="https://www.youtube.com/c/Cb9611/videos"
+                            target = "_blank"
+                            rel = "noopener noreferrer"
                             title="Go to YouTube channel"
-                            className="navItems"
-                        >YouTube</Link>
+                            className="navSocial"
+                        >YouTube</a>
                     </NavItem>
 
                 </Nav>

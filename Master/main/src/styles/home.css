@@ -10,54 +10,23 @@
 .homeContent {
     /* font styling*/
     font-family: 'LEMONMILK-Light';
-    font-size: 25pt;
+    font-size: 20pt;
     font-weight: lighter;
     color: #333;
     padding: 5px;
-    padding-left: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
     margin-left: auto;
     margin-right: auto;
-    text-decoration: underline rgb(150, 0, 0) 3px;
+    text-align: center;
 }
 
-.image_content {
-    margin-top: 5px;
-    margin-bottom: 20px;
+.carsImg {
     width: 100%;
     align-items: center;
 }
 
 .textContent_1 {
-    list-style-type: none;
-    float: right;
-    /* font styling*/
-    font-family: 'LEMONMILK-Light';
-    font-size: 25pt;
-    font-weight: lighter;
-    color: #333;
-    margin: 5px;
-    padding-right: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: underline rgb(150, 0, 0) 3px;
-}
-
-.textContent_2 {
-    list-style-type: none;
-    float: left;
-    /* font styling*/
-    font-family: 'LEMONMILK-Light';
-    font-size: 25pt;
-    font-weight: lighter;
-    color: #333;
-    margin: 5px;
-    padding-left: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: underline rgb(150, 0, 0) 3px;
-}
-
-.textContent_3 {
     list-style-type: none;
     float: right;
     /* font styling*/
