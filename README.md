@@ -7,13 +7,13 @@ I'm actively relocating to Charlotte, NC and seeking frontend or full-stack role
 ---
 
 ## Projects
-### [IMASS](https://github.com/CB9611/IMASS_2025) — Lead Frontend Developer
+### [IMASS](https://github.com/CB9611/IMASS_2025) - Lead Frontend Developer
 React-based interface for a suite of containerized legacy Fortran scientific models. Built a scenario builder with job-chaining, real-time container health checks, and file drag-and-drop functionality.
 
-### [Spotify Visual Dashboard](https://project-sylena.cameronbranch.com) — Full-Stack
+### [Spotify Visual Dashboard](https://project-sylena.cameronbranch.com) - Full-Stack
 React + Vite frontend, Python FastAPI backend. Spotify OAuth 2.0 integration pulling a user's top 25 tracks. Deployed on Cloudflare and Render.
 
-### [Portfolio](https://cameronbranch.com) — React + Vite
+### [Portfolio](https://cameronbranch.com) - React + Vite
 Built from scratch without templates. Deployed on Cloudflare.
 
 ---
